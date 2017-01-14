@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_112" class="java.beans.XMLDecoder">
+ <object class="levels.Level2D" id="Level2D0">
+  <void class="levels.Level2D" method="getField">
+   <string>warehouse</string>
+   <void method="set">
+    <object idref="Level2D0"/>
+    <array class="[Llevels.Items;" length="6">
+     <void index="0">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall0">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall0"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Wall" id="Wall1">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall1"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Wall" id="Wall2">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall2"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Wall" id="Wall3">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall3"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Wall" id="Wall4">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall4"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Wall" id="Wall5">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall5"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Wall" id="Wall6">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall6"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall7">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall7"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>0</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void index="1">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall8">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall8"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Space" id="Space0">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space0"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Space" id="Space1">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space1"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Destination_Box" id="Destination_Box0">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Destination_Box0"/>
+           <object class="levels.Position">
+            <void property="flagDestination">
+             <boolean>true</boolean>
+            </void>
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Space" id="Space2">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space2"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Destination_Box" id="Destination_Box1">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Destination_Box1"/>
+           <object class="levels.Position">
+            <void property="flagDestination">
+             <boolean>true</boolean>
+            </void>
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Space" id="Space3">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space3"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall9">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall9"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>1</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void index="2">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall10">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall10"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Box" id="Box0">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Box0"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Space" id="Space4">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space4"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Space" id="Space5">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space5"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Box" id="Box1">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Box1"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Space" id="Space6">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space6"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Space" id="Space7">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space7"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall11">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall11"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>2</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void index="3">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall12">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall12"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Destination_Box" id="Destination_Box2">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Destination_Box2"/>
+           <object class="levels.Position">
+            <void property="flagDestination">
+             <boolean>true</boolean>
+            </void>
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Space" id="Space8">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space8"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Space" id="Space9">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space9"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Box" id="Box2">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Box2"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Space" id="Space10">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space10"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Space" id="Space11">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space11"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall13">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall13"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>3</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void index="4">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall14">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall14"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Space" id="Space12">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space12"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Space" id="Space13">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space13"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Space" id="Space14">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space14"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Actor" id="Actor0">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Actor0"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Space" id="Space15">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space15"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Space" id="Space16">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Space16"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall15">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall15"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>4</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void index="5">
+      <array class="levels.Items" length="8">
+       <void index="0">
+        <object class="levels.Wall" id="Wall16">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall16"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>0</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="1">
+        <object class="levels.Wall" id="Wall17">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall17"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>1</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="2">
+        <object class="levels.Wall" id="Wall18">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall18"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="3">
+        <object class="levels.Wall" id="Wall19">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall19"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="4">
+        <object class="levels.Wall" id="Wall20">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall20"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>4</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="5">
+        <object class="levels.Wall" id="Wall21">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall21"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>5</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="6">
+        <object class="levels.Wall" id="Wall22">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall22"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>6</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void index="7">
+        <object class="levels.Wall" id="Wall23">
+         <void class="levels.Items" method="getField">
+          <string>p</string>
+          <void method="set">
+           <object idref="Wall23"/>
+           <object class="levels.Position">
+            <void property="i">
+             <int>5</int>
+            </void>
+            <void property="j">
+             <int>7</int>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </array>
+     </void>
+    </array>
+   </void>
+  </void>
+  <void property="actors">
+   <void method="add">
+    <object idref="Actor0"/>
+   </void>
+  </void>
+  <void property="boxes">
+   <void method="add">
+    <object class="levels.Box" id="Box3">
+     <void class="levels.Items" method="getField">
+      <string>p</string>
+      <void method="set">
+       <object idref="Box3"/>
+       <object class="levels.Position">
+        <void property="i">
+         <int>2</int>
+        </void>
+        <void property="j">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="levels.Box" id="Box4">
+     <void class="levels.Items" method="getField">
+      <string>p</string>
+      <void method="set">
+       <object idref="Box4"/>
+       <object class="levels.Position">
+        <void property="i">
+         <int>2</int>
+        </void>
+        <void property="j">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="levels.Box" id="Box5">
+     <void class="levels.Items" method="getField">
+      <string>p</string>
+      <void method="set">
+       <object idref="Box5"/>
+       <object class="levels.Position">
+        <void property="i">
+         <int>3</int>
+        </void>
+        <void property="j">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="column">
+   <int>6</int>
+  </void>
+  <void property="dest_boxes">
+   <void method="add">
+    <object idref="Destination_Box0"/>
+   </void>
+   <void method="add">
+    <object idref="Destination_Box1"/>
+   </void>
+   <void method="add">
+    <object idref="Destination_Box2"/>
+   </void>
+  </void>
+  <void property="items">
+   <void method="add">
+    <object idref="Wall0"/>
+   </void>
+   <void method="add">
+    <object idref="Wall1"/>
+   </void>
+   <void method="add">
+    <object idref="Wall2"/>
+   </void>
+   <void method="add">
+    <object idref="Wall3"/>
+   </void>
+   <void method="add">
+    <object idref="Wall4"/>
+   </void>
+   <void method="add">
+    <object idref="Wall5"/>
+   </void>
+   <void method="add">
+    <object idref="Wall6"/>
+   </void>
+   <void method="add">
+    <object idref="Wall7"/>
+   </void>
+   <void method="add">
+    <object idref="Wall8"/>
+   </void>
+   <void method="add">
+    <object idref="Space0"/>
+   </void>
+   <void method="add">
+    <object idref="Space1"/>
+   </void>
+   <void method="add">
+    <object idref="Destination_Box0"/>
+   </void>
+   <void method="add">
+    <object idref="Space2"/>
+   </void>
+   <void method="add">
+    <object idref="Destination_Box1"/>
+   </void>
+   <void method="add">
+    <object idref="Space3"/>
+   </void>
+   <void method="add">
+    <object idref="Wall9"/>
+   </void>
+   <void method="add">
+    <object idref="Wall10"/>
+   </void>
+   <void method="add">
+    <object idref="Box0"/>
+   </void>
+   <void method="add">
+    <object idref="Space4"/>
+   </void>
+   <void method="add">
+    <object idref="Space5"/>
+   </void>
+   <void method="add">
+    <object idref="Box1"/>
+   </void>
+   <void method="add">
+    <object idref="Space6"/>
+   </void>
+   <void method="add">
+    <object idref="Space7"/>
+   </void>
+   <void method="add">
+    <object idref="Wall11"/>
+   </void>
+   <void method="add">
+    <object idref="Wall12"/>
+   </void>
+   <void method="add">
+    <object idref="Destination_Box2"/>
+   </void>
+   <void method="add">
+    <object idref="Space8"/>
+   </void>
+   <void method="add">
+    <object idref="Space9"/>
+   </void>
+   <void method="add">
+    <object idref="Box2"/>
+   </void>
+   <void method="add">
+    <object idref="Space10"/>
+   </void>
+   <void method="add">
+    <object idref="Space11"/>
+   </void>
+   <void method="add">
+    <object idref="Wall13"/>
+   </void>
+   <void method="add">
+    <object idref="Wall14"/>
+   </void>
+   <void method="add">
+    <object idref="Space12"/>
+   </void>
+   <void method="add">
+    <object idref="Space13"/>
+   </void>
+   <void method="add">
+    <object idref="Space14"/>
+   </void>
+   <void method="add">
+    <object idref="Actor0"/>
+   </void>
+   <void method="add">
+    <object idref="Space15"/>
+   </void>
+   <void method="add">
+    <object idref="Space16"/>
+   </void>
+   <void method="add">
+    <object idref="Wall15"/>
+   </void>
+   <void method="add">
+    <object idref="Wall16"/>
+   </void>
+   <void method="add">
+    <object idref="Wall17"/>
+   </void>
+   <void method="add">
+    <object idref="Wall18"/>
+   </void>
+   <void method="add">
+    <object idref="Wall19"/>
+   </void>
+   <void method="add">
+    <object idref="Wall20"/>
+   </void>
+   <void method="add">
+    <object idref="Wall21"/>
+   </void>
+   <void method="add">
+    <object idref="Wall22"/>
+   </void>
+   <void method="add">
+    <object idref="Wall23"/>
+   </void>
+  </void>
+  <void property="row">
+   <int>8</int>
+  </void>
+  <void property="spaces">
+   <void method="add">
+    <object idref="Space0"/>
+   </void>
+   <void method="add">
+    <object idref="Space1"/>
+   </void>
+   <void method="add">
+    <object idref="Space2"/>
+   </void>
+   <void method="add">
+    <object idref="Space3"/>
+   </void>
+   <void method="add">
+    <object idref="Space4"/>
+   </void>
+   <void method="add">
+    <object idref="Space5"/>
+   </void>
+   <void method="add">
+    <object idref="Space6"/>
+   </void>
+   <void method="add">
+    <object idref="Space7"/>
+   </void>
+   <void method="add">
+    <object idref="Space8"/>
+   </void>
+   <void method="add">
+    <object idref="Space9"/>
+   </void>
+   <void method="add">
+    <object idref="Space10"/>
+   </void>
+   <void method="add">
+    <object idref="Space11"/>
+   </void>
+   <void method="add">
+    <object idref="Space12"/>
+   </void>
+   <void method="add">
+    <object idref="Space13"/>
+   </void>
+   <void method="add">
+    <object idref="Space14"/>
+   </void>
+   <void method="add">
+    <object idref="Space15"/>
+   </void>
+   <void method="add">
+    <object idref="Space16"/>
+   </void>
+  </void>
+  <void property="walls">
+   <void method="add">
+    <object idref="Wall0"/>
+   </void>
+   <void method="add">
+    <object idref="Wall1"/>
+   </void>
+   <void method="add">
+    <object idref="Wall2"/>
+   </void>
+   <void method="add">
+    <object idref="Wall3"/>
+   </void>
+   <void method="add">
+    <object idref="Wall4"/>
+   </void>
+   <void method="add">
+    <object idref="Wall5"/>
+   </void>
+   <void method="add">
+    <object idref="Wall6"/>
+   </void>
+   <void method="add">
+    <object idref="Wall7"/>
+   </void>
+   <void method="add">
+    <object idref="Wall8"/>
+   </void>
+   <void method="add">
+    <object idref="Wall9"/>
+   </void>
+   <void method="add">
+    <object idref="Wall10"/>
+   </void>
+   <void method="add">
+    <object idref="Wall11"/>
+   </void>
+   <void method="add">
+    <object idref="Wall12"/>
+   </void>
+   <void method="add">
+    <object idref="Wall13"/>
+   </void>
+   <void method="add">
+    <object idref="Wall14"/>
+   </void>
+   <void method="add">
+    <object idref="Wall15"/>
+   </void>
+   <void method="add">
+    <object idref="Wall16"/>
+   </void>
+   <void method="add">
+    <object idref="Wall17"/>
+   </void>
+   <void method="add">
+    <object idref="Wall18"/>
+   </void>
+   <void method="add">
+    <object idref="Wall19"/>
+   </void>
+   <void method="add">
+    <object idref="Wall20"/>
+   </void>
+   <void method="add">
+    <object idref="Wall21"/>
+   </void>
+   <void method="add">
+    <object idref="Wall22"/>
+   </void>
+   <void method="add">
+    <object idref="Wall23"/>
+   </void>
+  </void>
+ </object>
+</java>

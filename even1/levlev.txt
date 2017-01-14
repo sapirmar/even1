@@ -1,0 +1,9 @@
+number of columns: 6
+number of rows: 7
+
+#######
+#  o  #
+#  @  #
+# A   #
+#  #  #
+#######
